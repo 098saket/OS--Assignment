@@ -2,10 +2,11 @@ Write a multi-threaded C program that gives readers priority over writers concer
 shared (global) variable. Essentially, if any readers are waiting, then they have priority over
 writer threads -- writers can only write when there are no readers. This program should
 adhere to the following constraints:
-Multiple readers/writers must be supported (5 of each is fine)
+Multiple readers/writers must be supported       (5 of each is fine)
 Readers must read the shared variable X number of times
 Writers must write the shared variable X number of times
 Readers must print:
+
 The value read
 The number of readers present when value is read
 Writers must print:
